@@ -13,13 +13,13 @@ A multi-threaded network reconnaissance tool designed for efficient vulnerabilit
 * **HTML Reporting:** Exports comprehensive dark-mode security audits.
 
 ## 🛠️ Usage
-1.  **Download:** Get the latest `.exe` from the [Releases](https://github.com/YOUR_USERNAME/NetProbe-Scanner/releases) page.
-2.  **Run:** Double click `NetProbe_v9_Installer.exe`.
+1.  **Download:** Get the latest `.exe` from the [Releases](https://github.com/dimitris-detsirapis/NetProbe-Scanner/releases) page.
+2.  **Run:** Double click `NetProbe_v1.exe`.
 3.  **Scan:** Enter a Target IP or Subnet.
 
 ## ⚙️ Development
 To run from source:
 ```bash
-git clone [https://github.com/YOUR_USERNAME/NetProbe-Scanner.git](https://github.com/YOUR_USERNAME/NetProbe-Scanner.git)
+git clone [https://github.com/dimitris-detsirapis/NetProbe-Scanner.git](https://github.com/dimitris-detsirapis/NetProbe-Scanner.git)
 pip install customtkinter python-nmap requests
 python netprobe.py
