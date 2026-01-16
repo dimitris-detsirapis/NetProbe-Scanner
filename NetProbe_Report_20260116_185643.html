@@ -1,0 +1,181 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>NetProbe Scan Report</title>
+            <style>
+                body { font-family: 'Segoe UI', sans-serif; background-color: #1e1e1e; color: #c0c0c0; margin: 20px; }
+                h1 { color: #ffffff; border-bottom: 2px solid #c0392b; padding-bottom: 10px; }
+                .summary { background: #252526; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                .host-card { background: #2d2d30; margin-bottom: 15px; padding: 15px; border-left: 5px solid #2ecc71; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
+                .host-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #3e3e42; padding-bottom: 10px; margin-bottom: 10px; }
+                .ip { font-size: 1.2em; font-weight: bold; color: #ffffff; }
+                .location { font-size: 0.9em; color: #f1c40f; margin-right: 15px; }
+                .badge { background: #007acc; color: white; padding: 3px 8px; border-radius: 3px; font-size: 0.8em; }
+                table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+                th { text-align: left; background: #3e3e42; color: white; padding: 8px; }
+                td { border-bottom: 1px solid #3e3e42; padding: 8px; color: #d4d4d4; }
+                .vuln { color: #e74c3c; font-weight: bold; }
+            </style>
+        </head>
+        <body>
+            <h1>🛡️ NetProbe Global Audit</h1>
+            <div class="summary">
+                <p><strong>Date:</strong> 2026-01-16 18:56:43</p>
+                <p><strong>Hosts Found:</strong> 1</p>
+            </div>
+        
+            <div class="host-card">
+                <div class="host-header">
+                    <div>
+                        <span class="ip">🖥️ 192.168.1.1</span>
+                    </div>
+                    <div>
+                        <span class="location">🌍 Local Network (Private IP)</span>
+                        <span class="badge">speedport.ip</span>
+                    </div>
+                </div>
+            
+                <table>
+                    <tr><th>Port</th><th>Service</th><th>Version</th><th>Risk/Info</th></tr>
+                
+                    <tr>
+                        <td>21/TCP</td>
+                        <td>ftp</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>22/TCP</td>
+                        <td>ssh</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>25/TCP</td>
+                        <td>smtp</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>110/TCP</td>
+                        <td>pop3</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>111/TCP</td>
+                        <td>rpcbind</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>135/TCP</td>
+                        <td>msrpc</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>139/TCP</td>
+                        <td>netbios-ssn</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>143/TCP</td>
+                        <td>imap</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>199/TCP</td>
+                        <td>smux</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>443/TCP</td>
+                        <td>https</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>445/TCP</td>
+                        <td>microsoft-ds</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>554/TCP</td>
+                        <td>rtsp</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>587/TCP</td>
+                        <td>submission</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>993/TCP</td>
+                        <td>imaps</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>995/TCP</td>
+                        <td>pop3s</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1025/TCP</td>
+                        <td>NFS-or-IIS</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1720/TCP</td>
+                        <td>h323q931</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>1723/TCP</td>
+                        <td>pptp</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>3389/TCP</td>
+                        <td>ms-wbt-server</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>8080/TCP</td>
+                        <td>http-proxy</td>
+                        <td></td>
+                        <td class=""></td>
+                    </tr>
+                    </table></div></body></html>
